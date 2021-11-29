@@ -47,4 +47,18 @@ NGINX configuration: https://www.netguru.com/blog/nginx-tutorial-basics-concepts
 
 Time spent: 6 hours
 
+28/11/2021
+
+Assigned elastic IP to EC2
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html
+
+https://youtu.be/h-yOoHbH_Dw
+
+Time spent: Half an hour
+
+29/11/2021
+
+Break
+
 
