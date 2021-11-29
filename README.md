@@ -3,7 +3,7 @@
 
 Analyzed the project and created a plan.
 Created github account and a public repository for the project.
-Downloaded Git on windows and practiced some commands.
+Downloaded Git on windows and practiced some commands (git config, git init, git status, git add, git commit, git log and git checkout)
 
 
 Creating a github account: https://www.wikihow.com/Create-an-Account-on-GitHub
@@ -59,6 +59,9 @@ Time spent: Half an hour
 
 29/11/2021
 
-Break
+Understanding Git commands: git branch, git merge, git diff and git stash.
 
+https://youtu.be/nXS-N7clo9E
+
+Time spent: 2 hours
 
