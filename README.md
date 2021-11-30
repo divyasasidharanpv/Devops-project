@@ -65,3 +65,25 @@ https://youtu.be/nXS-N7clo9E
 
 Time spent: 2 hours
 
+30/11/2021
+
+Practiced git commands: git remote, git push and git clone.
+
+https://youtu.be/w5JP-sjkWD0
+
+Changed NGINX user.
+
+https://fedingo.com/how-to-change-nginx-user/
+
+Set permissions on website files  and directories.
+
+https://www.casbay.com/guide/kb/change-permissions-using-find-command-2
+
+Understanding server blocks to host multiple domains.
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-on-centos-7
+
+Time spent: 6 hours
+
+
+
