@@ -85,5 +85,19 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-bloc
 
 Time spent: 6 hours
 
+01/12/2021
 
+Started .gitignore file, understanding how to comment issues, sponsorship, gist, actions and project management.
+
+https://youtu.be/N6869pvF9cc 
+
+Understanding open source project and how to contribute to it.
+
+https://youtu.be/aAyr8AiuYTo
+
+Understanding what ansible is and how it works.
+
+https://youtu.be/wgQ3rHFTM4E
+
+Time spent: 3 hours
 
