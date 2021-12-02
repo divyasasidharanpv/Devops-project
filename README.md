@@ -1,5 +1,5 @@
 # Devops-project
-25/11/2021
+**25/11/2021**
 
 Analyzed the project and created a plan.
 Created github account and a public repository for the project.
@@ -17,7 +17,7 @@ Introduction to git:  https://youtu.be/-wGc24R3_eM
 Static Vs Dynamic website: https://wpamelia.com/static-vs-dynamic-website/
 
 
-26/11/2021
+**26/11/2021**
 
 Launched an EC2 instance Amazon linux 2 t2.micro 10 GB storage.
 Connected to the instance through putty and gitbash.
@@ -30,9 +30,9 @@ Windows EC2 connection: https://youtu.be/YiB6Imicui4
 
 Installing NGINX on Amazon Linux: https://youtu.be/leCZ7htfB_g
 
-Time spent: 5 hours
+```Time spent: 5 hours```
 
-27/11/2021
+**27/11/2021**
 
 Downloaded static web content from site https://html5up.net and added it to s3 bucket.
 Created IAM role for EC2 instance to interact with s3 and copied the content.
@@ -45,9 +45,9 @@ Windows Subsystem for Linux: https://www.linux.com/news/how-get-started-using-ws
 
 NGINX configuration: https://www.netguru.com/blog/nginx-tutorial-basics-concepts
 
-Time spent: 6 hours
+```Time spent: 6 hours```
 
-28/11/2021
+**28/11/2021**
 
 Assigned elastic IP to EC2
 
@@ -55,17 +55,17 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.htm
 
 https://youtu.be/h-yOoHbH_Dw
 
-Time spent: Half an hour
+```Time spent: Half an hour```
 
-29/11/2021
+**29/11/2021**
 
 Understanding Git commands: git branch, git merge, git diff and git stash.
 
 https://youtu.be/nXS-N7clo9E
 
-Time spent: 2 hours
+```Time spent: 2 hours```
 
-30/11/2021
+**30/11/2021**
 
 Practiced git commands: git remote, git push and git clone.
 
@@ -83,9 +83,9 @@ Understanding server blocks to host multiple domains.
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-on-centos-7
 
-Time spent: 6 hours
+```Time spent: 6 hours```
 
-01/12/2021
+**01/12/2021**
 
 Started .gitignore file, understanding how to comment issues, sponsorship, gist, actions and project management.
 
@@ -99,5 +99,26 @@ Understanding what ansible is and how it works.
 
 https://youtu.be/wgQ3rHFTM4E
 
-Time spent: 3 hours
+```Time spent: 3 hours```
+
+**02/12/2021**
+
+Installed Ansible
+
+https://www.coachdevops.com/2020/04/install-ansible-on-ubuntu-how-to-setup.html?m=1
+
+https://thecodecloud.in/ansible-installation-configuration-amazon-linux-ec2-instance-aws/
+
+Understanding YAML and ansible playbook.
+
+https://www.youtube.com/watch?v=o9pT9cWzbnI
+
+https://youtu.be/NHnJ8BtsFY0
+
+```Time spent: 3 hours```
+
+
+
+
+
 
