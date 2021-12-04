@@ -117,7 +117,17 @@ https://youtu.be/NHnJ8BtsFY0
 
 ```Time spent: 3 hours```
 
+**04/12/2021**
 
+Understanding Ansible configuration, commands, roles, templates and tags.
+
+https://youtu.be/ChSCEXQHfI4
+
+https://youtu.be/FHSNM5yAUm8
+
+https://youtu.be/lRwGkO3PtB8
+
+```Time spent: 2 hours```
 
 
 
