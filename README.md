@@ -129,6 +129,10 @@ https://youtu.be/lRwGkO3PtB8
 
 ```Time spent: 2 hours```
 
+Launched an EC2 instance using ansible playbook
+
+```Time spent: 1 hour```
+
 
 
 
