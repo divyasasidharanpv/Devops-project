@@ -135,6 +135,12 @@ Launched an EC2 instance using ansible playbook
 
 ```Time spent: 1 hour```
 
+**06/12/2021**
+
+Working on playbook
+
+```Time spent: 2 hours```
+
 
 
 
