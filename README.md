@@ -141,6 +141,12 @@ Working on playbook
 
 ```Time spent: 2 hours```
 
+**07/12/2021**
+
+Trying to fix errors on nginx installation using ansible. Learning ansible
+
+```Time spent: 4 hours```
+
 
 
 
