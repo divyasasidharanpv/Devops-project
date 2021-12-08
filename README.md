@@ -131,7 +131,7 @@ https://youtu.be/lRwGkO3PtB8
 
 **05/12/2021**
 
-Launched an EC2 instance using ansible playbook
+Launched an EC2 instance executing ansible playbook from an ec2 instance
 
 ```Time spent: 1 hour```
 
@@ -146,6 +146,20 @@ Working on playbook
 Trying to fix errors on nginx installation using ansible. Learning ansible
 
 ```Time spent: 4 hours```
+
+**08/12/2021**
+
+Set up AWS credentials locally using aws configure command. Created a new playbook adding vars and user_data to install nginx. Referred sample playbooks. Executed playbook to launch an EC2 instance with nginx installed and running.
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html
+
+https://docs.ansible.com/ansible/latest/collections/community/aws/ec2_launch_template_module.html
+
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
+
+```Time spent: 3 hours```
+
+
 
 
 
