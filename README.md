@@ -159,6 +159,12 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
 
 ```Time spent: 3 hours```
 
+**09/12/2021**
+
+Added to bash script wget command to download static website zip file from S3 bucket and unzip command to unzip it. launched EC2 instance with the files downloaded and unzipped. Working on nginx configuration.
+
+```Time spent: 4 hours```
+
 
 
 
