@@ -165,6 +165,14 @@ Added to bash script wget command to download static website zip file from S3 bu
 
 ```Time spent: 4 hours```
 
+**10/12/2021**
+
+Hosted static website with nginx. Understanding docker.
+
+https://youtu.be/rOTqprHv1YE
+
+```Time spent: 2 hours```
+
 
 
 
