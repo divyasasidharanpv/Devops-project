@@ -173,6 +173,15 @@ https://youtu.be/rOTqprHv1YE
 
 ```Time spent: 2 hours```
 
+**11/12/2021**
+
+Understood the difference between containerization and virtualization. Learned about components of docker and how docker works. Installed docker. Created dockerhub account and explored docker images.  Worked on basic docker commands for images and containers. Understanding how to create and build dockerfile. 
+
+https://youtube.com/playlist?list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK
+
+
+```Time spent: 5 hours```
+
 
 
 
