@@ -182,6 +182,17 @@ https://youtube.com/playlist?list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK
 
 ```Time spent: 5 hours```
 
+**12/12/2021**
+
+Used docker-compose command to create and start containers.
+
+https://youtu.be/HUpIoF_conA
+
+Followed the steps for deploying static website with docker and nginx. Created a docker file. Used nginx as base image and copied static website files from working directory into the container. Used docker build to build docker image and then run the image. Static website hosted on port 8080.
+
+https://www.dailysmarty.com/posts/steps-for-deploying-a-static-html-site-with-docker-and-nginx
+
+```Time spent: 4 hours```
 
 
 
