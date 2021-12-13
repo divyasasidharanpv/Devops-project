@@ -1,0 +1,40 @@
+---
+- name: create aws instance
+  hosts: localhost
+  gather_facts: False
+  become_user: root
+
+  vars:
+    region: eu-west-1
+    instance_type: t2.micro
+    ami: ami-09ce2fc392a4c0fbc
+    key: ec2_keypair 
+    subnet_id: subnet-ea1b42b0
+    group: ansible
+    count: 1
+
+  tasks:
+    - name: launch aws instance and install nginx
+      ec2:
+        key_name: "{{ key }}"
+        group: "{{ group }}"
+        instance_type: "{{ instance_type }}"
+        image: "{{ ami }}"
+        wait: true
+        region: "{{ region }}"
+        count: "{{count }}"
+        vpc_subnet_id: "{{subnet_id}}"
+        assign_public_ip: yes
+        instance_tags:
+          Name: ec2-ansible
+        volumes:
+         - device_name: /dev/xvda
+           volume_type: gp2
+           volume_size: 10
+        user_data: "{{ lookup('file', 'user_data.sh') }}"
+      register: ec2
+    
+    
+
+
+  
