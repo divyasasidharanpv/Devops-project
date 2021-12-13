@@ -1,4 +1,7 @@
 # Devops-project
+
+## Host a static website in AWS cloud
+
 **25/11/2021**
 
 Analyzed the project and created a plan.
