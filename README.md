@@ -197,6 +197,55 @@ https://www.dailysmarty.com/posts/steps-for-deploying-a-static-html-site-with-do
 
 ```Time spent: 4 hours```
 
+**14/12/2021**
+
+Project completed
+
+## EC2 automation with ansible.
+Ansible is a simple IT automation engine that  enables you to automate cloud deployments. You can use it to manage applications and services using automation playbooks. Each playbook defines a set of configurations, which is used consistently across cloud environments.
+### Set up environment for ansible to work with AWS cloud
+Install ansible on any VM or AWS VM.
+Ansible uses python boto and boto3 libraries to call AWS API, and boto/boto3 needs AWS credentials in order to function.
+sudo pip install boto boto3.
+sudo pip install awscli.
+aws configure – to configure credentials of AWS account.
+cat  ~/.aws/credentials.
+Now that the AWS credentials are stored. Create a playbook to provision the EC2 instance and using vi to create the Ansible playbook. A Playbook is a set of instructions. We use these instructions to describe the state, the configuration, we want Ansible to manage for us.
+vi filename.yaml
+### Explaining the Playbook:
+Name= This tag specifies the name of the Ansible playbook. As in what this playbook will be doing.
+Hosts = This is the target section. We are not working with server, we are going to work with cloud, regardless we need a target, so we’ll use localhost.
+gather_facts = This is going to be FALSE since we are working with cloud, we don’t need to gather any facts.
+become_user = ansible become_user defines the user which is being used to execute the tasks. This task will be executed as the root user.
+Vars= Vars tag lets you define the variables which you can use in your playbook.
+Tasks = This is where we’ll draw up our playbook, and tell Ansible what exactly we want the playbook to do. In this case launch an instance with nginx to host a static website. For each task you need to implement a module.
+user_data.sh= automatically run a script when an EC2 instance is launched.
+Run
+ansible-playbook -C filename.yaml  to check whether ansible is ready to launch EC2.
+Once everything looks good,
+Run
+ansible-playbook  filename.yaml.
+Now, if you go to Amazon console, you will see server is launched successfully. Copy the public ip and enter it in browser to view the static website.
+## Deploying a Static Website In a Docker Container using an NGINX webserver.
+Docker is a tool designed to make it easier to create, deploy and run applications by using containers. These containers will contain all the binaries and libraries required for your application. Your application is present in a container, or you have containerized your application. A container provides runtime environments for various applications so that we can write the application once and port the application between different platforms and clouds.
+Docker image is a template with instructions which is used for creating docker containers. A docker image is built using a file called dockerfile.
+Docker registry is an opensource server side service used for hosting and distributing images. Docker has its own default registry called docker hub.
+Install docker.
+Create a docker file.
+vi dockerfile.
+FROM - defines the base image used to start the build process.
+RUN instruction allows you to install your application and packages required for it. It executes any commands on top of the current image and creates a new layer by committing the results.
+In this case nginx image is used. RUN instruction used to install git and clone static website files from repository to nginx   static site location.
+Now, You have a Dockerfile for your static site. You can now create a docker image with these files. To create a Docker image
+docker build -t staticwebsite .
+The above command will create a Docker image with name staticwebsite .Use “docker images” command to list available images on local system.
+Now, you have a docker image now. Use this docker image to launch a new container on your system. To run your Docker container using the newly created image,
+docker run -d -p 80:80 staticwebsite
+In case the port 80 is occupied by the host machine or any other docker container. You can change the host machine port to something else.
+docker run -d -p 8080:80 staticwebsite
+Use “docker ps” command to view the running container.
+Access your docker host using IP address (or hostname/domain name) on port 8080 to view application.
+
 
 
 
